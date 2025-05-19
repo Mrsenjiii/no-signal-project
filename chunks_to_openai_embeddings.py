@@ -23,7 +23,7 @@ for line in lines:
         
         line = json.loads(line)
         print(f"Processing chunk: {line}")
-        embeddings = asyncio.run( get_embeddings(line))
+        embeddings = asyncio.run( get_embeddings(line['content']))
         if embeddings:
             embeddings_data = embeddings["data"][0]['embedding']
             # add the embeddings and text to the collection
