@@ -1,0 +1,9 @@
+unzipped_raw_data
+unzipped_raw_data/*
+zipped_raw_data
+zipped_raw_data/*
+embeddings.json
+chunks.json
+processed_pdfs_docs
+processed_pdfs_docs/*
+__pycache__
