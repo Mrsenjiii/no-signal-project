@@ -7,3 +7,4 @@ chunks.json
 processed_pdfs_docs
 processed_pdfs_docs/*
 __pycache__
+sample_questions_top_results/
